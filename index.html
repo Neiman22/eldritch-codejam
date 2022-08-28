@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Eldrich</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="ancients__block">
+            <select name="ancients" class="ancients">
+                <option disabled selected>Сhoose an ancient card</option>
+                <option value="azathoth">Azathoth</option>
+                <option value="cthulhu">Cthulhu</option>
+                <option value="iogSothoth">IogSothoth</option>
+                <option value="shubNiggurath">ShubNiggurath</option>
+            </select>
+            <br>
+            <img src="" alt="" class="image-ancients">
+        </div>
+        <div class="difficulties">
+            <select name="complexity" class="complexity">
+                <option disabled selected>Select game difficulty</option>
+                <option value="very-easy">Very easy difficulty level</option>
+                <option value="easy">Easy difficulty level</option>
+                <option value="normal">Medium difficulty</option>
+                <option value="high">High level of difficulty</option>
+                <option value="very-high">Very high level of difficulty</option>
+            </select>
+            <div class="scheme">
+                <div class="first-round">
+                    <div class="first-one green circle">0</div>
+                    <div class="first-two blue circle">0</div>
+                    <div class="first-three brown circle">0</div>
+                </div>
+                <div class="second-round">
+                    <div class="second-one green circle">0</div>
+                    <div class="second-two blue circle">0</div>
+                    <div class="second-three brown circle">0</div>
+                </div>
+                <div class="third-round">
+                    <div class="third-one green circle">0</div>
+                    <div class="third-two blue circle">0</div>
+                    <div class="third-three brown circle">0</div>
+                </div>
+            </div> 
+        </div>
+        <div class="result">
+            <button class="select-card">Selected cards</button>
+            <br>
+            <img src="" alt="" class="deck">
+        </div>
+    </div>
+    <script type="module" src="script.js"></script>
+</body>
+</html>

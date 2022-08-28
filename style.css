@@ -1,0 +1,98 @@
+
+.wrapper {
+    max-width: 1080px;
+    min-height: 540px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-image: url(./assets/home.png);
+}
+.ancients__block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ancients {
+    text-align: center;
+    border-radius: 10px;
+    width: 250px;
+    height: 40px;
+    background-color: rgb(212, 212, 212);
+}
+.image-ancients {
+    text-align: center;
+    height: 250px;
+    padding: 20px;
+    transition: 1s;
+    opacity: 1;
+    visibility: visible;
+    
+}
+.image-ancients img{
+    border-radius: 10px;
+}
+.difficulties {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.complexity {
+    text-align: center;
+    border-radius: 10px;
+    width: 250px;
+    height: 40px;
+    background-color: rgb(212, 212, 212);
+    margin-bottom: 20px;
+}
+.result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.select-card {
+    border-radius: 10px;
+    width: 250px;
+    height: 40px;
+    background-color: rgb(212, 212, 212);
+}
+.scheme {
+    display: flex;
+    flex-direction: column;
+}
+.first-round {
+    display: flex;
+}
+.second-round {
+    display: flex;
+}
+.third-round {
+    display: flex;
+}
+.green {
+    background-color: rgb(102, 174, 102);
+}
+.blue {
+    background-color: rgb(106, 106, 235);
+}
+.brown {
+    background-color: rgb(192, 87, 87);
+}
+.circle{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    color:aliceblue;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+.deck {
+    text-align: center;
+    height: 250px;
+    padding: 20px;
+    border-radius: 10px;
+}
